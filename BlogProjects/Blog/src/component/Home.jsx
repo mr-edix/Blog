@@ -2,8 +2,8 @@ import React from 'react'
 
 const Home = () => {
   return (
-    <div>
-      hello
+    <div style={{backgroundColor:"white"}}>
+     <p>Hello</p>
     </div>
   )
 }
