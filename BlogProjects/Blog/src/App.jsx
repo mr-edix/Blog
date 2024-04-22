@@ -4,11 +4,13 @@ import Home from './component/Home'
 import Signin from './component/Signin'
 import Signup from './component/Signup'
 import About from './component/About'
+import Header from './component/Header'
 
 const App = () => {
   return (
     <div>
       <BrowserRouter>
+      <Header/>
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/about' element={<About />} />
