@@ -7,6 +7,7 @@ mongoose.connect("mongodb+srv://Ajaycloud:Ajaycloud1234@ajaycloud.bncjx7d.mongod
     console.log(err);
 })
 const app = express();
+app.use(express.json());
 
 app.listen("3000", () => {
     console.log("server is running at 3000");
